@@ -46,4 +46,3 @@ The `movie-stream-consumer` listens to the Fluvio topic and processes the movie 
 
 ### `movie-stream-connector.yml`
 
-  # Additional configuration options as required
