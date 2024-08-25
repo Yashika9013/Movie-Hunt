@@ -1,0 +1,15 @@
+apiVersion: 0.1.0
+meta:
+  version: 0.2.5
+  name: movie-stream
+  type: http-source
+  topic: movie-stream
+http:
+  endpoint: https://api.themoviedb.org/3/movie/popular
+  interval: 3s
+  headers:
+    accept: 'application/json'
+    Authorization: 'Bearer ${TOKEN_AUTH}'
+  params:
+    language: 'en-US'
+    page: 1

@@ -1,0 +1,8 @@
+# File: tranforms.yaml
+transforms:
+  - uses: infinyon/jolt@0.3.0
+    with:
+      spec:
+        - operation: shift 
+          spec:
+            quote: ""
